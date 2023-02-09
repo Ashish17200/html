@@ -2,11 +2,14 @@ html
 {
     scroll-behavior: smooth;
 }
+body{
+    background-color: rgb(41, 59, 176);
+}
 h1
         {
             font-size: 100px;
             text-align:center;
-            color:blue; 
+            color:rgb(176, 12, 12); 
         }
 a:hover
 {
@@ -15,4 +18,19 @@ a:hover
 a:visited
 {
     color: pink;
+}
+
+table, th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: centre;
+}
+ul{
+    list-style-type: square;
+}
+@media(max-width: 600px){
+    body{
+        background-color: aqua;
+    }
 }

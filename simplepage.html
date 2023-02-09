@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="fi.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>My First html page</h1>
+    <h1>My First html page of ashish</h1>
     <span
       >Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, nulla
       veritatis facere ipsam sit vero dol̥l̥ores recusandae magni dolorem sed eum!
       Veritatis est ipsa nostrum quibusdam sint. Dolorem, optio
       aspernatur.</span
     >
-    <a href="https://www.google.co.in/" target="_blank"
+    <!-- <a href="https://www.google.co.in/" target="_blank"
       ><img src="sharathjpj.jpg" width="200px" alt="cannot fetch" /></a
-    ><br />
+    ><br /> -->
     <a href="mailto:afnansheikh@gmail.com">MAIL</a><br />
     <a href="tel:8762851934">Telephone number</a><br />
     <a href="https://github.com/thushar28">W3schools</a>
@@ -71,5 +71,98 @@
     </p>
     <br />
     <hr />
+    <table style="width: 100%; margin-bottom: 50px">
+      <tr>
+        <th>sl.no</th>
+        <th>name</th>
+        <th>age</th>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>abhi</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>akash</td>
+        <td>21</td>
+      </tr>
+    </table>
+    <ul style="list-style-type: circle">
+      <li>apple</li>
+      <li>orange</li>
+      <li>pista</li>
+    </ul>
+    <ul>
+      <li>apple</li>
+      <li>orange</li>
+      <li>pista</li>
+    </ul>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/SqYxSSU8-YI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe
+    ><br /><br />
+    <button onclick="myFunction(10, 15)">Click Me</button>
+    <button onclick="myFunction(100, 105)">add more</button>
+    <button onclick="myFunction(100, 100)">add</button>
+    <script>
+      function myFunction(x, y) { 
+        if(x > y){
+          alert("x is greater");
+        }
+        else if(x == y)
+          alert("x is equal to y")
+        else
+          alert("y is greater");  
+        
+        // alert(x + y);
+      }
+      let a = 5;
+      var b = 10;
+      str = "hello";
+      const c = 15;
+      var x = 50;
+      x += 5;
+      var str1 = "Hello";
+      var str2 = "World";
+      var bool = true;
+      var obj = { name: "acce", year: 2019, color: "orange" };
+      var arr = [1, 2, 3, 1000, "hello world"];
+      console.log(arr);
+      arr.pop();
+      console.log(arr);
+      arr.push("Hii");
+      console.log(arr);
+      var date = new Date();
+      console.log(arr.join("@"));
+
+      console.log(
+        date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds()
+      );
+
+      // console.log(str1 + " " + str2);
+      // console.log(b + " " + str2);
+      // console.log(a == str1);
+      // console.log(b === 5 && b != 5);
+      // console.log(b === 5 || b != 5);
+      console.log(!(a === 5));
+      console.log(!(a === 10));
+
+      // console.log(b === 10);
+      // console.log(b != 10);
+      // console.log(x);
+      // console.log(a + b + c);
+      // console.log(a - b);
+      // console.log(a * b);
+      // console.log(a % b);
+      // document.getElementById("demo").innerHTML = "Hello World";
+      // document.getElementById("demo").innerHTML = "Hello World";
+    </script>
   </body>
 </html>
